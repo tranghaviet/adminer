@@ -309,7 +309,7 @@ thead td {
 	background-color: #ec5f12;
 }
 tbody tr:nth-child(even) td {
-	background: rgba(65, 101, 138, 0.06);
+    background: rgba(55, 106, 160, 0.1);
 }
 tbody tr:nth-child(even) th {
 	background: rgba(65, 64, 115, 0.06);
