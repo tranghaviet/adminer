@@ -76,6 +76,9 @@ input[type="button"] {
 .error {
 	background: #ae1010;
 }
+.error b {
+	color: red;
+}
 .message {
 	background: #379f17;
 }
