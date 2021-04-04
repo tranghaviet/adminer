@@ -165,6 +165,13 @@ html:lang(en) #version:before {
 	padding-bottom: 3em;
 	border-left: 20em solid #41658a;
 }
+#content pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
 .rtl #content {
 	margin: 0;
 	padding: 0 20px 3em;
@@ -480,9 +487,7 @@ h1 {
 #h1 {
 	font-style: normal;
 }
-#dbs {
-	color: transparent;
-}
+
 #dbs:before {
 	content: " ";
 	display: inline-block;
